@@ -1,0 +1,347 @@
+@font-face {
+	font-family: 'Corbel';
+	src: url('../corbel/CORBEL.TTF');
+}
+@font-face {
+	font-family: 'Corbel B';
+	src: url('../corbel/CORBELB.TTF');
+}
+@font-face {
+	font-family: 'Corbel I';
+	src: url('../corbel/corbeli.ttf');
+}
+@font-face {
+	font-family: 'Corbel Z';
+	src: url('../corbel/corbelz.ttf');
+}
+@font-face {
+	font-family: 'Corbel Italic';
+	src: url('../corbel/CorbelItalic.ttf');
+}
+@font-face {
+	font-family: 'Corbel Bold';
+	src: url('../corbel/CorbelBold.ttf');
+}
+@font-face {
+	font-family: 'Corbel Bold Italic';
+	src: url('../corbel/CorbelBoldItalic.ttf');
+}
+
+/* ===== PAGE CSS ==== */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* ===== BODY CSS ===== */
+body {
+	font-family: Corbel Bold;
+	color: #333;
+}
+body li {
+	list-style: none;
+}
+body a {
+	text-decoration: none;
+	color: #333;
+}
+
+/* ===== SELF CLASS CSS ===== */
+.container-fluid {
+	width: 100%;
+	padding: 30px 0;
+}
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+a.to-contact {
+	border: 1.5px solid #9fe831;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: .3s;
+}
+a.to-contact:hover {
+	color: #fff;
+	background: #9fe831;
+}
+
+.fs-10 {
+	font-size: 10px;
+}
+.fs-20 {
+	font-size: 20px;
+}
+.fs-25 {
+	font-size: 25px;
+}
+.fs-30 {
+	font-size: 30px;
+}
+.fs-35 {
+	font-size: 35px;
+}
+.fs-40 {
+	font-size: 40px;
+}
+.fs-50 {
+	font-size: 50px;
+}
+
+/* ===== ID: TOP CSS ===== */
+#top {
+	padding: 20px 0;
+}
+#top ul {
+	display: flex;
+	max-width: 80%;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* ===== ID: AFTER TOP CSS ===== */
+#after-top {
+	padding: 10px 0;
+}
+#after-top .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#after-top .container a {
+	border: 1.5px solid #9fe831;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: .3s;
+}
+#after-top .container a:hover {
+	color: #fff;
+	background: #9fe831;
+}
+
+/* ===== ID: NAVBAR CSS ===== */
+.navbar ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 40px;
+	font-size: 20px;
+}
+
+/* ===== ID: HEADER CSS ===== */
+#header {
+	text-align: center;
+	font-size: 20px;
+}
+#header img {
+	width: 50%;
+	padding: 35px 0;
+}
+#header h2 {
+	color: #821a24;
+	padding: 30px 0;
+}
+#header form {
+	padding: 40px 0 60px 0;
+}
+
+/* ===== ID: ABOUT CSS ===== */
+#about h1 {
+	text-align: center;
+}
+#about .row {
+	width: 100%;
+	display: flex;
+	padding: 50px 0;
+}
+#about .row .col-4 {
+	width: 35%;
+	text-align: center;
+	padding: 0 20px;
+}
+#about .row .col-4 .img-container img {
+	width: 90%;
+	border: 1px solid #333;
+	border-radius: 50%;
+}
+#about .row .col-4 .text-container {
+	padding: 10px 0;
+	font-size: 20px;
+}
+#about .row .col-8 {
+	width: 65%;
+	padding: 0 0 0 40px;
+	text-align: center;
+	font-size: 20px;
+}
+#about .end-container {
+	text-align: center;
+}
+#about .end-container img {
+	width: 75%;
+}
+#about form {
+	text-align: center;
+	font-size: 20px;
+	padding: 60px 0;
+}
+
+/* ===== ID: QUESTION CSS ===== */
+#question .container {
+	text-align: center;
+}
+#question .container .fs-30 {
+	padding: 50px 0 100px 0;
+}
+#question .container ul li p {
+	font-family: Corbel!important;
+	padding: 40px 100px;
+}
+
+/* ===== ID: ANSWER CSS ===== */
+#answer .container {
+	text-align: center;
+}
+#answer .container .fs-40 {
+	padding: 0 30px;
+}
+#answer .container .fs-30 {
+	padding: 50px 0;
+}
+#answer .container img {
+	width: 90%;
+}
+#answer form {
+	text-align: center;
+	font-size: 20px;
+	padding: 60px 0;
+}
+
+/* ===== ID: COMMENT CSS ===== */
+#comment .comment-title {
+	text-align: center;
+}
+
+/* ===== ID: ABOUT TROLLEYS CSS ===== */
+#about-trolleys .about-trolleys-title {
+	text-align: center;
+}
+#about-trolleys .about-trolleys-table {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+#about-trolleys table {
+	display: table;
+	width: 90%;
+	border-spacing: 0;
+	margin: 40px auto;
+	font-family: Corbel I;
+	border: 1px solid #333;
+	border-bottom: 0;
+}
+#about-trolleys table thead {
+	text-align: left;
+}
+#about-trolleys table thead tr th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    padding: 2px 5px;
+}
+#about-trolleys table thead tr th:last-child {
+	border-right: 0;
+}
+#about-trolleys table tbody tr td {
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	padding: 2px 5px;
+}
+#about-trolleys table tbody tr td:last-child {
+	border-right: 0;
+}
+#about-trolleys .about-trolleys-image {
+	text-align: center;
+	padding: 40px 0;
+}
+#about-trolleys form {
+	text-align: center;
+	padding: 60px 0;
+}
+
+/* ===== ID: STOCK CSS ===== */
+#stock .container {
+	text-align: center;
+}
+#stock .container p {
+	font-family: Corbel;
+	padding: 40px 0;
+}
+#stock .container img {
+	width: 100%;
+}
+#stock form {
+	text-align: center;
+	padding: 60px 0;
+}
+
+/* ===== ID: CONTACT CSS ===== */
+#contact .container {
+	text-align: center;
+}
+#contact .container img {
+	width: 100%;
+	padding: 50px 0;
+}
+#contact form {
+	text-align: center;
+	padding: 0 0 60px 0;
+}
+
+/* ===== ID: PURCHASE CSS ===== */
+#purchase .container {
+	text-align: center;
+}
+
+/* ===== ID: FORM CSS ===== */
+#form .container {
+	text-align: center;
+}
+#form .container img {
+	width: 100%;
+	padding: 50px 0;
+}
+#form form {
+	text-align: center;
+	padding: 40px 0 60px 0;
+}
+
+/* ===== ID: FOOTER NAVBAR CSS ===== */
+#footer-nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px;
+	font-size: 20px;
+}
+#footer-nav ul li:last-child a {
+	border: 1.5px solid #444;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: .3s;
+}
+#footer-nav ul li:last-child a:hover {
+	background: #444;
+	color: #fff;
+}
+
+/* ===== ID: FOOTER CSS ===== */
+footer .container {
+	text-align: center;
+	font-family: Corbel;
+	font-size: 17px;
+}
+footer ul {
+	padding: 40px 0 0 0 ;
+}
