@@ -33,6 +33,7 @@
 		margin: 0;
 		box-sizing: border-box;
 	}
+
 /* ===== BODY CSS ===== */
 	body {
 		font-family: Corbel Bold;
@@ -129,6 +130,11 @@
 	}
 
 /* ===== ID: NAVBAR CSS ===== */
+	.navbar {
+		width: 100%;
+		background: #fff;
+		transition: top 0.3s;
+	}
 	.navbar ul {
 		display: flex;
 		justify-content: space-around;
@@ -142,6 +148,14 @@
 	}
 	.navbar ul li:hover a {
 		color: #0b1803;
+	}
+	.nav-active {
+		top: 0;
+		position: fixed;
+		box-shadow: 0 .5rem .5rem rgba(0,0,0,.15)!important;
+		z-index: 9999;
+	} .nav-active ul {
+		padding: 20px;
 	}
 
 /* ===== ID: HEADER CSS ===== */
